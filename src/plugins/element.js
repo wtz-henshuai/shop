@@ -1,0 +1,83 @@
+import Vue from 'vue'
+import {
+  Button,
+  Input,
+  Form,
+  FormItem,
+  Message,
+  MessageBox,
+  Container,
+  Header,
+  Aside,
+  Main,
+  MenuItem,
+  Submenu,
+  Menu,
+  MenuItemGroup,
+  Breadcrumb,
+  BreadcrumbItem,
+  Table,
+  TableColumn,
+  Row,
+  Col,
+  Switch,
+  Tooltip,
+  Pagination,
+  Dialog,
+  Card,
+  Tag,
+  Tree,
+  Select,
+  Option,
+  Cascader,
+  Alert,
+  TabPane,
+  Tabs,
+  Loading,
+  Step,
+  Steps,
+  Checkbox,
+  CheckboxGroup,
+  Upload
+} from 'element-ui'
+// 将Message 挂载到全局对象
+Vue.prototype.$message = Message
+Vue.prototype.$confirm = MessageBox.confirm
+// Vue.prototype.$loading = Loading
+Vue.use(Button)
+Vue.use(Input)
+Vue.use(Form)
+Vue.use(FormItem)
+Vue.use(Container)
+Vue.use(Header)
+Vue.use(Aside)
+Vue.use(Main)
+Vue.use(MenuItem)
+Vue.use(Submenu)
+Vue.use(Menu)
+Vue.use(MenuItemGroup)
+Vue.use(Breadcrumb)
+Vue.use(BreadcrumbItem)
+Vue.use(Table)
+Vue.use(TableColumn)
+Vue.use(Row)
+Vue.use(Col)
+Vue.use(Switch)
+Vue.use(Tooltip)
+Vue.use(Pagination)
+Vue.use(Dialog)
+Vue.use(Card)
+Vue.use(Tag)
+Vue.use(Tree)
+Vue.use(Select)
+Vue.use(Option)
+Vue.use(Cascader)
+Vue.use(Alert)
+Vue.use(Tabs)
+Vue.use(TabPane)
+Vue.use(Loading)
+Vue.use(Steps)
+Vue.use(Step)
+Vue.use(Checkbox)
+Vue.use(CheckboxGroup)
+Vue.use(Upload)
